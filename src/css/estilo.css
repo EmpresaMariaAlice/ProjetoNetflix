@@ -30,13 +30,17 @@ body{
 .cabecalho-menu{
     list-style: none;
     display: flex;
+ 
 }
 .cabecalho-menu li{
     margin-left: 20px;
+   
 }
 .cabecalho-menu a{
     color: #fff;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .cabecalho-menu a:hover{
     color: red;
